@@ -1,15 +1,14 @@
 # flake8: noqa: F401
 # noreorder
 """
-Pytube: a very serious Python library for downloading YouTube Videos.
+rip off pytube and add my own features
 """
-__title__ = "pytube"
-__author__ = "Ronnie Ghose, Taylor Fox Dahlin, Nick Ficano"
+__title__ = "youtu.py"
+__author__ = "SnappyCarp"
 __license__ = "The Unlicense (Unlicense)"
 __js__ = None
 __js_url__ = None
 
-from pytube.version import __version__
 from pytube.streams import Stream
 from pytube.captions import Caption
 from pytube.query import CaptionQuery, StreamQuery
